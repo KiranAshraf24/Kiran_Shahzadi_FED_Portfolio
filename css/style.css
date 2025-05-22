@@ -9182,7 +9182,7 @@ textarea.form-control {
 .heading-section {
   position: relative; }
   .heading-section .subheading {
-    font-size: 13px;
+    font-size: 43px;
     font-weight: 500;
     display: block;
     margin-bottom: 5px;
@@ -9193,9 +9193,9 @@ textarea.form-control {
     position: absolute;
     top: 0px;
     left: 0;
-    font-size: 7vw;
+    /* font-size: 7vw; */
     color: rgba(255, 255, 255, 0.1);
-    z-index: -1;
+    /* z-index: -1; */
     font-weight: 900; }
     .heading-section h1.big.big-2 {
       right: 0; }
@@ -9682,3 +9682,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .subheading{
+      font-size: 45px;
+      color: var(--warning);
+      margin-bottom: 20px;
+    }
+    .content{
+      margin-top: 200px;
+    }
