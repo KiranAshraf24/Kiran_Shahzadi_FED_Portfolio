@@ -1,0 +1,120 @@
+a {
+  text-decoration: none;
+  color: rgb(190, 191, 192);
+}
+
+.logowrapper {
+  padding: 10px;
+}
+
+.logowrapper > img {
+  width: 60%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+li {
+  color: #b3b2b9;
+}
+
+.wrapper {
+  display: flex;
+  background-color: #fefefe;
+}
+
+.wrapper > img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+
+.mngbtn {
+  height: 55px;
+  width: 120px;
+  border-radius: 100px;
+  background-color: rgb(171, 195, 195);
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 1;
+  padding: 0.65rem 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(72, 171, 247) !important;
+  background: rgba(72, 171, 247, 0.1);
+  border-color: transparent;
+}
+
+.addbtn {
+  height: 55px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: rgb(21, 114, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.wrapperimg {
+  height: 80px;
+  width: 90%;
+  background-color: #1572e8;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.addbtn1 {
+  height: 45px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: rgb(171, 195, 195);
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 1;
+  padding: 0.65rem 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(72, 171, 247) !important;
+  background: rgba(72, 171, 247, 0.1);
+  border-color: transparent;
+}
+
+.mngbtn1 {
+  height: 45px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: #31ce36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+  opacity: 0.6;
+}
+
+button {
+  height: 50px;
+  background-color: #1572e8;
+  width: 100px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.sub {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  /* background-color: #31ce36; */
+}
+.sub1 {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #31ce36;
+  /* padding-right: 100px; */
+}
