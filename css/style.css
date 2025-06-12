@@ -165,7 +165,7 @@ figure {
   margin: 0 0 1rem; }
 
 img {
-  vertical-align: middle;
+  /* vertical-align: middle; */
   border-style: none; }
 
 svg {
@@ -9699,3 +9699,51 @@ textarea.form-control {
       width: 100%;
       overflow: hidden;
     }
+
+    /* .overlay1{
+      display: none;
+    }
+    .overlay1:hover{
+      display: block;
+      background-color: var(--warning);
+      color: var(--warning);
+    } */
+
+    .card.imgwrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.card.imgwrapper .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    padding: 1rem;
+    text-align: center;
+    font-size: larger;
+}
+
+.card.imgwrapper:hover .overlay1 {
+    opacity: 1;
+    background-color: var(--warning);
+}
+
+.overlay1 .project-attachment {
+    margin-top: 1rem;
+}
+
+.overlay1 .project-attachment a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
